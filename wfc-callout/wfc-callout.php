@@ -12,7 +12,7 @@ class WFC_CallOut extends WP_Widget {
 
 		$widget_options = array( 
 			'classname' => 'wfc-callout',
-			'description' => 'A widget to display image and text cards'
+			'description' => 'A widget to display callout text with WFC Cards.'
 			);
 
 		parent::WP_Widget('wfc_callout', 'WFC Call Out', $widget_options);
