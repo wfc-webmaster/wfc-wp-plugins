@@ -1,0 +1,173 @@
+/* Pizazz SliderPlus Dark theme */
+.pzsp-greytheme .is-text {background-color:#333;color:#ddd;}
+
+.pzsp-greytheme .pzsp-container {
+	background-color:transparent;
+}
+
+.pzsp-greytheme .pzsp-outer-wrapper {background-color:#333;}
+.pzsp-greytheme .pzsp-inner-wrapper {border:solid 1px #333;background:#333;}
+.pzsp-greytheme .pzsp-contents {}
+.pzsp-greytheme .pzsp-content-leftortop {}
+.pzsp-greytheme .pzsp-content-rightorbottom {}
+.pzsp-greytheme .pzsp-navigation {}
+.pzsp-greytheme .pzsp-navigation a {color:#0066aa}
+
+.pzsp-greytheme .pzsp-content-container {}
+.pzsp-greytheme .is-image {}
+.pzsp-greytheme .is-text {}
+
+.pzsp-greytheme .pzsp-nav-item {}
+
+.pzsp-greytheme .pzsp-text-content {color:#ddd;}
+
+.pzsp-greytheme .pzsp-contents {}
+
+.pzsp-greytheme .pzsp-text-content h2,
+.pzsp-greytheme .pzsp-text-content h3,
+.pzsp-greytheme .pzsp-text-content h4
+{
+	color:#fff;
+	font-weight:bold;font-size: 16px;;margin-bottom:5px;font-family:sans-serif;
+}
+.pzsp-greytheme .pzsp-text-content a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.pzsp-greytheme .pzsp-navigation .navtype-text,
+.pzsp-greytheme .pzsp-nav-container
+ {
+background: #555555;
+background: -moz-linear-gradient(top,  #555555 0%, #333333 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#555555), color-stop(100%,#333333));
+background: -webkit-linear-gradient(top,  #555555 0%,#333333 100%);
+background: -o-linear-gradient(top,  #555555 0%,#333333 100%);
+background: -ms-linear-gradient(top,  #555555 0%,#333333 100%);
+background: linear-gradient(top,  #555555 0%,#333333 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#555555', endColorstr='#333333',GradientType=0 );
+}
+
+
+.pzsp-greytheme .pzsp-navigation .navtype-text {
+	text-shadow: none;
+
+}
+.pzsp-greytheme .pzsp-nav-item.navtype-text {
+border-left:solid 1px #5e5e5e;
+border-right:solid 1px #333;
+}
+
+.pzsp-greytheme .pzsp-navigation .navtype-bullets {
+}
+
+.pzsp-greytheme ul.pzsp-navigation .navtype-numbers {
+}
+
+.pzsp-greytheme .pzsp-navigation td.navtype-text:hover, 
+.pzsp-greytheme .pzsp-navigation .navtype-text td:hover 
+{
+background: #777777;
+background: -moz-linear-gradient(top,  #777777 0%, #555555 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#777777), color-stop(100%,#555555));
+background: -webkit-linear-gradient(top,  #777777 0%,#555555 100%);
+background: -o-linear-gradient(top,  #777777 0%,#555555 100%);
+background: -ms-linear-gradient(top,  #777777 0%,#555555 100%);
+background: linear-gradient(top,  #777777 0%,#555555 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#777777', endColorstr='#555555',GradientType=0 );
+}
+
+.pzsp-greytheme .pzsp-navigation  a span{
+	color:#999999;
+	text-shadow:none;
+}
+.pzsp-greytheme .pzsp-navigation td:hover a span{
+	color:#fff;
+	text-shadow:none;
+}
+
+.pzsp-greytheme .pzsp-navigation .cycle-pager-active a  span{
+	color:#eee;
+	text-shadow:none;
+}
+
+.pzsp-greytheme .pzsp-navigation .navtype-bullets.cycle-pager-active a  span
+{
+	color:#eee;
+	text-shadow: 0 1px 1px #fff, 0 -1px 1px #111;
+}
+.pzsp-greytheme .pzsp-navigation  .navtype-bullets a span 
+{
+	color:#999999;
+	text-shadow: 0 1px 1px #fff, 0 -1px 1px #111;
+}
+.pzsp-greytheme .pzsp-navigation td.navtype-bullets:hover a span
+{
+	color:#fff;
+	text-shadow: 0 1px 1px #fff, 0 -1px 1px #111;
+}
+
+.pzsp-greytheme .pzsp-navigation .navtype-squares.cycle-pager-active a  span span.draw-square-bullet
+{
+	background-color:#eee;
+	text-shadow: 0 1px 1px #fff, 0 -1px 1px #111;
+}
+.pzsp-greytheme .pzsp-navigation  .navtype-squares a span  span.draw-square-bullet
+{
+	background-color:#999999;
+	text-shadow: 0 1px 1px #fff, 0 -1px 1px #111;
+}
+
+.pzsp-greytheme .pzsp-navigation td.navtype-squares:hover a span span.draw-square-bullet
+{
+	background-color:#fff;
+	text-shadow: 0 1px 1px #fff, 0 -1px 1px #111;
+}
+
+.pzsp-greytheme .pzsp-navigation tr.cycle-pager-active td.navtype-text,
+.pzsp-greytheme .pzsp-navigation td.navtype-text.cycle-pager-active 
+
+{
+background: #666666;
+background: -moz-linear-gradient(top,  #666666 0%, #444444 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#666666), color-stop(100%,#444444));
+background: -webkit-linear-gradient(top,  #666666 0%,#444444 100%);
+background: -o-linear-gradient(top,  #666666 0%,#444444 100%);
+background: -ms-linear-gradient(top,  #666666 0%,#444444 100%);
+background: linear-gradient(top,  #666666 0%,#444444 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#444444',GradientType=0 );
+}
+
+
+
+.pzsp-greytheme .pzsp-navigation tr.cycle-pager-active td.navtype-asterisks, 
+.pzsp-greytheme .pzsp-navigation tr.cycle-pager-active td.navtype-numbers, 
+.pzsp-greytheme .pzsp-navigation tr.cycle-pager-active td.navtype-bullets, 
+.pzsp-greytheme .pzsp-navigation tr.cycle-pager-active td.navtype-squares, 
+.pzsp-greytheme .pzsp-navigation td.navtype-asterisks.cycle-pager-active, 
+.pzsp-greytheme .pzsp-navigation td.navtype-numbers.cycle-pager-active, 
+.pzsp-greytheme .pzsp-navigation td.navtype-bullets.cycle-pager-active, 
+.pzsp-greytheme .pzsp-navigation td.navtype-squares.cycle-pager-active, 
+.pzsp-greytheme .pzsp-navigation .navtype-asterisks, 
+.pzsp-greytheme .pzsp-navigation .navtype-numbers, 
+.pzsp-greytheme .pzsp-navigation .navtype-bullets, 
+.pzsp-greytheme .pzsp-navigation .navtype-squares 
+{
+background:transparent	
+}
+
+
+.pzsp-greytheme .pzsp-navigation .navtype-text a span {
+	text-shadow: none;
+}
+.pzsp-greytheme .pzsp-navigation .navtype-text:hover a span{
+	text-shadow: none;
+}
+
+.pzsp-greytheme .pzsp-inner-wrapper {}
+
+/* No background settings */
+
+.pzsp-greytheme .pzsp-outer-wrapper {
+}

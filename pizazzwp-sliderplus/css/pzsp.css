@@ -1,0 +1,402 @@
+
+.pzsp-slideshow-title {
+  margin: 5px 0;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.pzsp-container {
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 14px;
+  font-weight: normal;
+  color: #222;
+  xdisplay: none;
+  max-width: 100%;
+}
+
+/* Stuff to clean up other themes' crap */
+div.pzsp_slider_shadow img,
+img.pzsp-slide-image {
+  border: none;
+  box-shadow: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+div.pzsp-nav-container { position: relative; z-index: 201; box-sizing: border-box; }
+
+div.pzsp-nav-container table.pzsp-navigation { border: none; }
+
+div.pzsp-nav-container td.pzsp-nav-item { border-top: none; }
+
+/* div.pzsp-container .pzsp-image-content img {max-width:none;}
+*/
+
+div.pzsp-nav-container.innertop { position: absolute; top: 0; background: transparent; }
+
+div.pzsp-nav-container.innerbottom { position: absolute; bottom: 0; background: transparent; }
+
+.fluid-width-video-wrapper iframe { }
+
+.cycle-slideshow img { width: 100%; height: auto }
+
+div.cleardiv { clear: both; }
+
+.pzsp-outer-wrapper { position: relative; }
+
+.pzsp-inner-wrapper { overflow: hidden; width: 100%; }
+
+.pzsp-contents { }
+
+.pzsp-content-leftortop { overflow: hidden; }
+
+.pzsp-content-rightorbottom { overflow: hidden; }
+
+table.pzsp-navigation { border: none; margin: 0; }
+
+.pzsp-navigation a { text-decoration: none; }
+
+.is-image { position: absolute; z-index: 0 }
+
+.is-text { position: absolute; z-index: 1 }
+
+.is-code,
+.is-video {
+  background-image: url('../images/loading.gif');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.pzsp-nav-item { padding: 5px; }
+
+.pzsp-text-content {
+  xposition: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;
+  line-height: 1.3;
+  border-bottom-style: solid;
+}
+
+.pzsp-text-content p {
+  margin-bottom: 10px;
+}
+
+.pzsp-contents { overflow: hidden; }
+
+.pzsp-text-content h2,
+.pzsp-text-content h3,
+.pzsp-text-content h4 { }
+
+.pzsp-text-content ul {
+  list-style: disc;
+  margin: 0 0 1.625em 2.5em
+}
+
+.pzsp-text-content li {
+}
+
+/* This is the right way!
+.pzsp-entry-title a,
+.pzsp-entry-title:hover a
+{
+	color:inherit;
+	text-decoration:inherit
+}
+*/
+body .pzsp-slider h2.pzsp-entry-title {
+  line-height: 1.1;
+}
+
+.pzsp-entry-body { height: 100%; }
+
+.pzsp-navigation {
+  padding: 0;
+  width: 100%;
+}
+
+.pzsp-navigation td {
+  height: 100%;
+  xvertical-align: text-top;
+  text-align: center;
+  border: none;
+  line-height: 1.2;
+}
+
+.pzsp-navigation .navtype-text {
+  padding: 10px 5px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  vertical-align: middle;
+}
+
+.pzsp-navigation .navtype-bullets,
+.pzsp-navigation .navtype-squares {
+  padding: 5px 8px;
+  font-size: 42px;
+  font-family: "Times New Roman", Georgia, serif; }
+
+.pzsp-navigation .navtype-asterisks {
+  padding: 5px 5px 0px 5px;
+  font-size: 50px;
+  font-family: "Times New Roman", Georgia, serif;
+}
+
+.pzsp-navigation .navtype-numbers {
+  padding: 15px 5px;
+  font-size: 22px;
+  font-style: italic;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+}
+
+.draw-square-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 9px 0 7px 0;
+  display: block;
+}
+
+.pzsp-navigation .navtype-text.activeSlide {
+}
+
+.pzsp-navigation a {
+  font-weight: bold;
+}
+
+.pzsp-navigation .activeSlide a {
+}
+
+.pzsp-inner-wrapper {
+  border: none !important;
+  box-sizing: border-box;
+}
+
+.pzsp-outer-wrapper {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pzsp-image-content img { max-width: 1000%; }
+
+.bordershadow {
+  box-shadow: #000 0 0 10px;
+  margin: 10px;
+}
+
+/* Added 17/8/13 after border not wrapping slider. */
+/* Noticed this added space to bottom of block
+Added float:left; to fix 22/9/13
+*/
+.pzsp-slider { display: inline-block; float: left; }
+
+.pzsp_slider_shadow {
+  position: relative;
+  float: left;
+  max-width: 100%;
+}
+
+.pzsp_slider_shadow img { max-width: 100%; }
+
+.pzsp-prev,
+.pzsp-next {
+  position: absolute;
+  width: 64px;
+  display: block;
+  z-index: 200; /* This needs to be higher than the most number of slides but lower than the nav and menus*/
+  opacity: 0;
+  font-size: 40px;
+  text-decoration: none;
+  top: 0;
+  bottom: 0;
+}
+
+.pzsp-prev.always,
+.pzsp-next.always {
+  opacity: 1;
+}
+
+.pzsp-prev {
+  left: 0px;
+  /*xbackground:url('../libs/images/icons/prev.png') no-repeat center center;*/
+  background: no-repeat center center;
+}
+
+.pzsp-next {
+  right: 8px;
+  /*xbackground:url('../libs/images/icons/next.png') no-repeat center center;*/
+  background: no-repeat center center;
+}
+
+.pzsp-prev span,
+.pzsp-next span {
+  position: absolute;
+  top: 50%;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: -20px;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 4px 3px 2px 3px;
+  min-width: 40px;
+  max-width: 64px;
+}
+
+.pzsp-prev span {
+  left: 16px;
+}
+
+.pzsp-next span {
+  right: 8px;
+}
+
+.pzsp-prev:hover,
+.pzsp-next:hover {
+  opacity: 0.9;
+  /*background:rgba(255,255,255,0.1);*/
+}
+
+table.pzsp-video {
+  margin: 0;
+  border: none;
+}
+
+table.pzsp-video td {
+  border: none;
+  padding: 0;
+}
+
+table.pzsp-video td.pzsp-centre-video {
+  vertical-align: middle;
+  text-align: center;
+}
+
+
+.pzsp-navigation tr.activeSlide td.navtype-asterisks,
+.pzsp-navigation tr.activeSlide td.navtype-numbers,
+.pzsp-navigation tr.activeSlide td.navtype-bullets,
+.pzsp-navigation tr.activeSlide td.navtype-squares,
+.pzsp-navigation td.navtype-asterisks.activeSlide,
+.pzsp-navigation td.navtype-numbers.activeSlide,
+.pzsp-navigation td.navtype-bullets.activeSlide,
+.pzsp-navigation td.navtype-squares.activeSlide,
+.pzsp-navigation .navtype-asterisks,
+.pzsp-navigation .navtype-numbers,
+.pzsp-navigation .navtype-bullets,
+.pzsp-navigation .navtype-squares {
+  background: transparent;
+  line-height: 0.8
+}
+
+x.pzsp-navigation .navtype-asterisks a:hover span,
+x.pzsp-navigation .navtype-numbers a:hover span,
+x.pzsp-navigation .navtype-bullets a:hover span,
+x.pzsp-navigation .navtype-squares a:hover span {
+  border-radius: 100px;
+  background-color: #777;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #fff !important;
+}
+
+/* All this should probably be in pizazzlibs admin styles */
+ul#pizazz-meta-nav {
+  max-width: 60px;
+  background: #f7f7f7;
+  border-right: solid 1px #eee;
+}
+
+ul#pizazz-meta-nav li.pizazz-meta-tab-title a {
+  xfloat: right !important;
+  xleft: -10px !important;
+  xtext-align: center;
+  max-width: 60px;
+}
+
+ul#pizazz-meta-nav li.pizazz-meta-tab-title.ui-tabs-selected a span,
+ul#pizazz-meta-nav li.pizazz-meta-tab-title.ui-tabs-selected:hover a span {
+  display: none !important;
+}
+
+ul#pizazz-meta-nav li.pizazz-meta-tab-title:hover a span {
+  display: block !important;
+  top: -10px;
+  position: absolute;
+  left: 44px;
+  background: #3289ac;
+  padding: 12px 10px 8px 25px;
+  xwidth: 150px;
+  height: 20px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 14px;
+  color: #fff;
+  box-shadow: 1px 1px 2px #aaa;
+}
+
+li.pizazz-meta-tab-title.ui-tabs-selected {
+  border: solid #f5f5f5 1px;
+}
+
+xul#pizazz-meta-nav li.pizazz-meta-tab-title.ui-tabs-selected a,
+ul#pizazz-meta-nav li.pizazz-meta-tab-title:hover a {
+}
+
+xul#pizazz-meta-nav li.pizazz-meta-tab-title a img {
+  margin: inherit;
+}
+
+.pzsp-arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid #eee;
+  left: 0px;
+  position: absolute;
+  top: 0;
+}
+
+th.pz-field-heading {
+  xxxbackground: #eee;
+  border-top-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.pz-field-heading h4.pz-field-heading {
+  border: none;
+  letter-spacing: 0.1em;
+  text-shadow: none;
+}
+
+h4.pz-field-heading { font-size: 17px; padding-top: 10px; }
+
+.pizazz-form-table th { padding-left: 20px; }
+
+.pzsp-content-container {
+  display: none;
+}
+
+.pzsp_icon_list span { font-size: 32px; vertical-align: middle; }
+
+.pzsp-slider,
+.pzsp_slider_shadow { visibility: hidden;
+}
+
+.ve-iframe.pzsp-slider,
+.ve-iframe .pzsp_slider_shadow {
+  visibility: visible;
+}
+
+.block-type-sliderplus { display: block; }
+
+.block-type-navigation ul.sub-menu {
+  z-index: 500;
+}
+

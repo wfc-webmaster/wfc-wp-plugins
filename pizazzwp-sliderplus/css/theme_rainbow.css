@@ -1,0 +1,303 @@
+.pzsp-rainbowtheme .is-text {background-color:#eee;color:#ddd;}
+
+.pzsp-rainbowtheme .pzsp-container {
+	background:transparent;
+}
+
+.pzsp-rainbowtheme .pzsp-outer-wrapper {background-color:#fff}
+.pzsp-rainbowtheme .pzsp-inner-wrapper {border:solid 1px #eee;background:#333;}
+.pzsp-rainbowtheme .pzsp-contents {}
+.pzsp-rainbowtheme .pzsp-content-leftortop {}
+.pzsp-rainbowtheme .pzsp-content-rightorbottom {}
+.pzsp-rainbowtheme .pzsp-nav-container {background:#f0f0f0;}
+.pzsp-rainbowtheme .pzsp-navigation {}
+.pzsp-rainbowtheme .pzsp-navigation a span {color:#fff}
+.pzsp-rainbowtheme table.pzsp-navigation {margin:0 auto;}
+
+.pzsp-rainbowtheme .pzsp-content-container {}
+.pzsp-rainbowtheme .is-image {}
+.pzsp-rainbowtheme .is-text {}
+
+.pzsp-rainbowtheme .pzsp-nav-item {}
+
+.pzsp-rainbowtheme .pzsp-text-content {color:#fff;}
+
+.pzsp-rainbowtheme .pzsp-text-content a
+{
+	color:#fff;
+	text-decoration:none;
+}
+
+.pzsp-rainbowtheme .pzsp-contents {}
+
+.pzsp-rainbowtheme .pzsp-text-content h2,
+.pzsp-rainbowtheme .pzsp-text-content h3,
+.pzsp-rainbowtheme .pzsp-text-content h4
+{
+	color:#111;
+	font-weight:bold;font-size: 16px;;margin-bottom:5px;font-family:sans-serif;
+}
+
+
+.pzsp-rainbowtheme td.navtype-bullets:hover a span,
+.pzsp-rainbowtheme td.navtype-squares:hover a span,
+.pzsp-rainbowtheme td.navtype-numbers:hover a span,
+.pzsp-rainbowtheme td.navtype-asterisks:hover a span
+{
+	color:#555;
+	text-shadow: 0px -1px 2px #999, 0px 1px 2px #fff;
+	
+}
+
+.pzsp-rainbowtheme td.navtype-squares:hover a span {
+	background-color:#555;
+
+}
+.pzsp-rainbowtheme td.navtype-squares a span {
+	border:solid #eee 1px;
+}
+.pzsp-rainbowtheme td.pzsp-nav-item.navtype-squares.cycle-pager-active a span {
+	border-top-color:#bbb;	
+	border-left-color:#bbb;	
+	border-bottom-color:#fff;	
+	border-right-color:#fff;	
+}
+
+/*****************************************************************/
+/* Tab 1 - Red*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-text,
+.pzsp-rainbowtheme .pzsp-nav-item-1 .navtype-text,
+.pzsp-rainbowtheme .pzsp-slide-id-1 .is-text
+ {
+	background-color:#c00;	
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-text:hover,
+.pzsp-rainbowtheme .pzsp-nav-item-1 .navtype-text:hover
+ {
+	background-color:#900;	
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-text.cycle-pager-active,
+.pzsp-rainbowtheme .pzsp-nav-item-1.cycle-pager-active .navtype-text,
+.pzsp-rainbowtheme .pzsp-slide-id-1 .is-text 
+{
+	background-color:#c00;
+}
+
+.pzsp-rainbowtheme .pzsp-slide-id-1 .pzsp-text-content
+{
+	xborder-bottom-color:#c00;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-1 .navtype-asterisks a span
+{
+	color:#c33;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}
+
+/*****************************************************************/
+/* Tab 2 -Orange*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-text ,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-text ,
+.pzsp-rainbowtheme .pzsp-slide-id-2 .is-text
+{
+	background-color: #EE8500;	
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-text:hover,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-text:hover
+{
+	background-color: #cc6500;	
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-text.cycle-pager-active ,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-text.cycle-pager-active ,
+.pzsp-rainbowtheme .pzsp-slide-id-2 .is-text.cycle-pager-active
+{
+	background-color: #EE8500;	
+}
+.pzsp-rainbowtheme .pzsp-slide-id-2 .pzsp-text-content{
+	border-bottom-color:#EE8500;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-2 .navtype-asterisks a span
+{
+	color:#EE8500;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}
+
+
+/*****************************************************************/
+/* Tab 3 - Yellow*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-text, 
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-text, 
+.pzsp-rainbowtheme .pzsp-slide-id-3 .is-text
+{
+	background-color: #ECC100;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-text:hover, 
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-text:hover 
+{
+	background-color: #cda000;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-text.cycle-pager-active, 
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-text.cycle-pager-active, 
+.pzsp-rainbowtheme .pzsp-slide-id-3 .is-text.cycle-pager-active
+{
+	background-color: #ECC100;
+}
+.pzsp-rainbowtheme .pzsp-slide-id-3 .pzsp-text-content{
+	border-bottom-color:#ECC100;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-3 .navtype-asterisks a span
+{
+	color:#ECC100;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}
+
+/*****************************************************************/
+/* Tab 4 - Green*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-4.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4.navtype-text,
+.pzsp-rainbowtheme .pzsp-nav-item-4 .navtype-text,
+.pzsp-rainbowtheme .pzsp-slide-id-4 .is-text
+ {
+	background-color:#390;	
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-4.navtype-text:hover ,
+.pzsp-rainbowtheme .pzsp-nav-item-4 .navtype-text:hover 
+{
+	background-color: #280;
+}
+.pzsp-rainbowtheme .pzsp-nav-item-4.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-4 .navtype-asterisks a span
+{
+	color:#390;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}
+
+/*****************************************************************/
+/* Tab 5 - Blue*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-5.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5.navtype-text ,
+.pzsp-rainbowtheme .pzsp-nav-item-5 .navtype-text ,
+.pzsp-rainbowtheme .pzsp-slide-id-5 .is-text
+{
+	background-color: #006ADD;	
+}
+.pzsp-rainbowtheme .pzsp-nav-item-5.navtype-text:hover ,
+.pzsp-rainbowtheme .pzsp-nav-item-5 .navtype-text:hover 
+{
+	background-color: #004abb;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-5.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-5 .navtype-asterisks a span
+{
+	color:#006ADD;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}
+
+/*****************************************************************/
+/* Tab 6 - Indigo*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-6.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6.navtype-text, 
+.pzsp-rainbowtheme .pzsp-nav-item-6 .navtype-text, 
+.pzsp-rainbowtheme .pzsp-slide-id-6 .is-text
+{
+	background-color: #4B0082;
+}
+.pzsp-rainbowtheme .pzsp-nav-item-6.navtype-text:hover ,
+.pzsp-rainbowtheme .pzsp-nav-item-6 .navtype-text:hover 
+{
+	background-color: #2b0062
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-6.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-6 .navtype-asterisks a span
+{
+	color:#4B0082;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}
+
+/*****************************************************************/
+/* Tab 7 - Violet*/
+/*****************************************************************/
+.pzsp-rainbowtheme .pzsp-nav-item-7.navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7 .navtype-squares a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7.navtype-text, 
+.pzsp-rainbowtheme .pzsp-nav-item-7 .navtype-text, 
+.pzsp-rainbowtheme .pzsp-slide-id-7 .is-text
+{
+	background-color: #4B004B;
+}
+
+.pzsp-rainbowtheme .pzsp-nav-item-7.navtype-text:hover ,
+.pzsp-rainbowtheme .pzsp-nav-item-7 .navtype-text:hover 
+{
+	background-color: #3b003b;
+}
+.pzsp-rainbowtheme .pzsp-nav-item-7.navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7.navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7.navtype-asterisks a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7 .navtype-bullets a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7 .navtype-numbers a span,
+.pzsp-rainbowtheme .pzsp-nav-item-7 .navtype-asterisks a span
+{
+	color:#4B004B;
+	text-shadow: 0px 1px 2px #999, 0px -1px 2px #fff;
+	
+}

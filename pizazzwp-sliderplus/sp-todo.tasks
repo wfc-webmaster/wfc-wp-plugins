@@ -1,0 +1,74 @@
+
+Do things like this:
+- http://www.barnardos.org.uk/
+- http://pluginbuddy.com/purchase/displaybuddy/
+- http://demos.ithemes.com/pluginbuddy/featured-posts/
+- http://thehalogroup.net/our-work/showcase.cfm
+- http://serverpress.com/
+- http://www.drobo.com/ Prob use a "level" to stick the slider and absolute it
+
+[TODO]
+- Add a slideshow mode like http://www.exvo.com/#!/pages/intro
+- Flip verticals to horizontal in small screen
+- Add Headway Design Mode support
+- Allow titles to hide if not enough room
+- fixed width titles
+- Add options to control responisve behaviour for different screens
+- Combine all js and css into one file
+- Should order az still pull the first N posts?
+✓ (B) Add template tag
+✓ (A) - Consider a widget version
+- Add navinnertop/innerbottom
+- add two way nudge plus text area height and width
+- (C) Add slide selector to wp post editor
+- (C) Add DIY themeing. Give color opts for background, text area, nav area, nav selected, nav hover, text, text headings, nav text, nav text hover, nav text selected
+- (C) Validation
+- (C) Extend Slides help with more detail
+- way to create a slideshow for the attached images to the current page/post? i.e. if I want a nice slider for the images attached to the current post
+(A) Investigate if possible to render in-post content, eg video urls
+(A) Render content correctly :/
+✓ (A) Rename sections - Possibly Content and Feature
+(A) Pause video when switching slides
+- Investigate flexible height slides :/ Obvisouly won't be too flash with featured images, but necessary for RSS feeds
+- (B) Consider THUMBNAILS. Make sure they're limited tho so it doesn't blow out into an image gallery plugin
+- Consider WP links as a source.
+- (B) Add RSS as source
+- (B) Add nav floating over slide
+#pzsp-SHORTNAME .pzsp-nav-container 
+{
+  position:absolute;
+  z-index:10;
+  bottom:0;
+  right:50px;
+}
+
+- Text vertical centering
+ .is-text {display:table;}
+
+ .pzsp-text-content {
+  position:relative;
+  display:table-cell; 
+  vertical-align:middle;}
+
+- (B) Add audio option for each slide. Trigger on slide load. Pause/Play/replay buttons. Stop on slide change. Thx Gabby
+
+
+
+User submitted:
+http://support.headwaythemes.com/discussion/15344/slide-not-transitioning-automatically-and-a-few-bugs#latest
+(A) Suggestions 1) When a slide selection is made that doesn't include any slides, a php error is displayed instead of a more friendly no slides found or something like that. 
+-2) I might have missed this but is there a way to create a slideshow for the attached images to the current page/post? i.e. if I want a nice slider for the images attached to the current post (it's actually a custom post type), take a look at one of the individual portfolio pages, I want to replace WPG with your slider.
+
+[BUG]
+(A) Potential Bugs 1) If you have revisions turned on (by default) in the display options, the revisions screen is sitting over the top of settings etc... (got screenshots if you need) 
+(A) 2) When rotating around a few settings that show additional options when selected (see attached image), it's not hiding those options when you change the parent setting.
+
+https://pizazzwp.freshdesk.com/helpdesk/tickets/779
+
+- Tidy up CSS issues with Headway 2
+BUGS:
+- Hide hove nav not unhiding after unchecking to hide
+- Responsive shrinking width but not height.
+
+WISHLIST:
+- Allow multiple content type selections.

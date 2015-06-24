@@ -1,0 +1,5 @@
+/* Set the tabs bar and panel to scroll in the VE if necessary*/
+div.panel-block-type-sliderplus-block ul.sub-tabs {overflow-y:auto;}
+/* Reduce spacing between input items since can't add scrolling to options panel */
+div.panel-block-type-sliderplus-block div.sub-tabs-content div.input {margin: 0 8px 6px 0!important;}
+div.panel-block-type-sliderplus-block p.sub-tab-notice {margin-bottom:8px!important;}

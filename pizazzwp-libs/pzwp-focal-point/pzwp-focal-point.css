@@ -1,0 +1,4 @@
+.attachment-media-view .thumbnail-image img,
+.attachment-info .thumbnail-image  {
+  cursor:url("focal-point-pointer.cur"),auto;
+}

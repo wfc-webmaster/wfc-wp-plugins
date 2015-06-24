@@ -1,0 +1,25 @@
+
+.button-help-on {padding:5px;border-radius:3px;background:#def;border:solid 1px #7af;}
+.button-help-off {padding:5px;border-radius:3px;background:#fee;border:solid 1px #a00;}
+.button-help-on:hover
+{
+	background:#bde;
+}
+
+.button-help-off:hover
+{
+	background:#ecc;
+}
+a.button-help-on
+{color:#06a;
+	text-decoration:none;
+}
+a.button-help-off
+{color:#700;
+	text-decoration:none;
+}
+
+.pzwp_the_tables {
+  border-left:solid 1px #f4f4f4;
+  border-top:solid 1px #f4f4f4;
+}

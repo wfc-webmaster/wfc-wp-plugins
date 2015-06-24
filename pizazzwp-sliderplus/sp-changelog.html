@@ -1,0 +1,251 @@
+= 1.3.15 : 16-Dec-2014 = <br>
+* FIXED: Not displaying GalleryPlus images<br>
+<br>
+= 1.3.14 1-Nov-2014 =<br>
+* FIXED: Stopped using Google CDN version of jQuery. Back to standard WP built in. This fixes some jQuery conflicts that it introduced<br>
+<br>
+= 1.3.13 =<br>
+* FIXED: Rejigged CSS that was stopping responsive titles CSS from being set.<br>
+<br>
+= 1.3.12 : 2-Oct-2014 =<br>
+* FIXED: Help "?" button not working. This was also causing Featured image in Slides to fail, and the pull down Help.<br>
+* FIXED: Wrong support information<br>
+<br>
+= 1.3.11 =<br>
+* FIXED: Alt text not being added to images<br>
+<br>
+= 1.3.10 : =<br>
+* FIXED: Problem where SliderPlus was not restoring the main query after running itself.<br>
+* CHANGED: Slides post type now accessible by other plugins, e.g. Architect<br>
+<br>
+= 1.3.10 :  20-June-2014 = <br>
+------------- <br>
+* FIXED: Problem where SliderPlus was not restoring the main query after running itself.<br>
+<br>
+= 1.3.9 : 1-June-2014  =<br>
+-------------------<br>
+* FIXED: Debugging code left in that would cause slow performance on sites with a lot of posts<br>
+* FIXED: Warning notice on PizazzWP constant<br>
+* FIXED: Headway 3.7 compatibility<br>
+<br>
+= 1.3.8 = : 9-April-2014<br>
+* FIXED: Content type selection not displaying correct filtering options<br>
+<br>
+
+= 1.3.7 : 6 April 2014 =<br>
+* CHANGED: PizazzWP libraries is now a separate plugin<br>
+<br>
+= 1.3.6 =<br>
+* ADDED: Option to strip iframes from body content<br>
+* CHANGED: Made title line height 1.1<br>
+* ADDED: Responsive options for content<br>
+* ADDED: Option to enable or not changing of nav titles to bullets on phones<br>
+* UPDATED: jQuery Cycle2 to v2.1.2<br>
+* FIXED: Bug when no transition duration set (slideshow would screw up and go blank)<br>
+* CHANGED: Rejigged how scripts are loaded<br>
+* CHANGED: Code structure so shortcode isn't called by block<br>
+* FIXED: Sometimes theme was coming up null coz of typo in variable name.<br>
+* FIXED: Paragraph breaks going missing in content<br>
+* CHANGED: Renamed to Slider Plus (i.e. added a space. This simply is to improve search hits for it)<br>
+<br>
+<h4> 1.3.4 : 3-Dec-2013 </h4>
+<ul><li>FIXED: Problem with saving slideshows and slides</li></ul>
+
+<h4>1.3.3 : 27-Nov-2013</h4><ul>
+<li>ADDED: Tip about centreing full width slideshows from Alan Hutchinson. http://www.photoproseo.com<\li>
+  <li>ADDED: Tip about responsive heights being limited by min-height set by Visual Editor.<\li>
+
+  <li>CHANGED: Made the code for hiding the block until rendered tidy up after itself.
+  <li>CHANGED: Removed some html comments<\li><\li>
+  <li>CHANGED: the z-index position of Headway nav submenus so they don't get hidden behind SliderPlus navs.<\li>
+
+  <li>FIXED: Rare occurrence of line breaks being inserted into data settings. Possibly caused by a third party plugin.<\li>
+  <li>FIXED: Meta box loading slowing admin<\li>
+</ul>
+
+<h4>1.3.2: 15-Nov-13</h4><ul>
+<li>ADDED: Info message to Slideshow list page.</li>
+  <li>CHANGED: Removed update notice</li>
+  <li>CHANGED: SliderPlus block will stay hidden until page fully drawn. This prevents the ugly look before the block turns into a slider.</li>
+  <li>CHANGED: Using global resizer</li>
+  <li>FIXED: Heaps of notices in PHP 5.4 strict mode</li>
+  <li>FIXED: Small js error when navigating slides with videos.</li>
+  <li>REMOVED: Help page automatic opening</li>
+</ul>
+<h4>1.3.1</h4><ul>
+<li>ADDED: WP-Updates support for non-Headway sites</li>
+</ul>
+<h4>1.3.0</h4>
+<li>ADDED: Support for local videos using WP's new video shortcode format http://codex.wordpress.org/Video_Shortcode</li>
+<li>ADDED: Option to always show hover navigation. This was done by changing the option that to hide it</li>
+<li>ADDED: Option for full width slideshows. Please read the help text with this option</li>
+<li>ADDED: Option for top or bottom navigation to appear floated over the slideshow rather than above or below</li>
+<li>ADDED: Option to disable linking of content titles</li>
+</ul>
+
+<h4>1.2.4 : 20-Sep-2013</h4><ul>
+<li>ADDED: Option to randomise the display order of the slides, irrespective of what "Order by" is selected.</li>
+<li>CHANGED: WP Context Help now is automatically opened. Can be set not not open too.</li>
+<li>CHANGED: When "Mouseover" navigation selected, clicking nav will link to post/page or slide destination</li>
+<li>FIXED: Design mode styling of content titles not working</li>
+<li>FIXED: Borders and shadows not wrapping around the slider</li>
+<li>FIXED: Titles and content missing sometimes</li>
+<li>FIXED: Only 10 Slideshows showing in block selector</li>
+<li>FIXED: Sliders not showing in Visual Editor</li>
+</ul>
+<h4>1.2.3: 28-July-2013</h4><ul>
+<li>CHANGED: Removed some transitions that weren't working</li>
+
+<li>FIXED: Slide height was wrong when navigation position set to left or right</li>
+<li>FIXED: Both arrows showing when using custom images for hover arrows</li>
+<li>FIXED: "Add Media" button no longer working in Slides since 1.2.1</li>
+<li>FIXED: Extra space showing at bottom of slideshow</li>
+<li>FIXED: Vertical navs busting layout if borders applied</li>
+
+<li>ADDED: Stylings for Headway users in Visual Editor Design Mode</li>
+</ul>
+
+<h4>1.2.2</h4><ul>
+<li>FIXED: An extremely rare situation where sometimes image filenames have some junk on the end put there by unknown plugin. S+ now removes the junk.</li>
+<li>FIXED: Destination URL in Slides not working.</li>
+<li>ADDED: Option to not resize images and display the original image. Useful when the highest quality image is required as server resizing isn't as good as Photoshop's</li>
+</ul>
+
+<h4>1.2.1</h4><ul>
+<li>FIXED: Missing hover nav buttons</li>
+</ul>
+
+
+<h4>1.2.0 : 04-May-2013</h4><ul>
+  <li>FIXED: Greatly improved responsive scaling</li>
+  <li>UPDATED: Pizazz Libs v1.3.5 which, among other fixes and updates, provides a Support button on the PizazzWP menu screen</li>
+</ul>
+<h4>1.1.5</h4><ul>
+  <li>ADDED: Automatic video pause when switching slides with YouTube or Vimeo videos set as the feature</li>
+  <li>ADDED: Option to override Respect Focal Point</li>
+  <li>ADDED: Option for custom nav colours</li>
+  <li>ADDED: Option to always show Read More if excerpts</li>
+  <li>ADDED: Options to color hover nav</li>
+
+  <li>CHANGED: Added link for current version on PizazzWP menu screen</li>
+  <li>CHANGED: Added message in PizazzWP menu screen when Pizazz updates server not available</li>
+  <li>CHANGED: Split filters into its own tab.</li>
+  <li>CHANGED: Content height is now a maximum height, so content area will adjust fluildly</li>
+  <li>CHANGED: Using Icon font for hover nav instad of PNGs.</li>
+  <li>CHANGED: Navigation elements to be more larger when small screen</li>
+
+  <li>FIXED: Respect Focal Point not working</li>
+  <li>FIXED: Overlapping text while slideshow is initially loading</li>
+  <li>FIXED: Full content not preserving line breaks</li>
+  <li>FIXED: Criteria filters not hiding on change</li>
+  <li>FIXED: Main navigation was behind hover navigation meaning end elements weren't clickable</li>
+</ul>
+<h4>1.1.4 : 22-Mar-2013</h4><ul>
+  <li>FIXED: Vertical navigation not working since switch to Cycle2</li>
+  <li>FIXED: Removed debug message left in code that could throw layouts out!</li>
+</ul>
+
+<h4>1.1.3 : 17-Mar-2013</h4><ul>
+  <li>ADDED: Option for custom hover nav images</li>
+  <li>ADDED: Changelog link to plugin description on plugins page</li>
+</ul>
+
+<h4>1.1.2 : 13-Mar-2013</h4><ul>
+  <li>ADDED: Message about changes to the transition options</li>
+  <li>FIXED: Bug when no easing selected slideshow didn't work</li>
+  <li>FIXED: Horizontal text disappeared</li>
+</ul>
+<h4>1.1.1 : 13-Mar-2013</h4><ul>
+  <li>REMOVED: Transitions preview. Will reinstate in the future</li>
+  <li>REMOVED: Easing out as no longer supported by Cycle.</li>
+</ul>
+
+<h4>1.1.0 : 12-Mar-2013</h4><ul>
+  <li>UPDATED: To jQuery Cycle2 library.(Modded so no conflict with Cycle1 in other plugins)</li>
+  <li>ADDED: Option to set the browser window slide destination URLs open into</li>
+  <li>CHANGED: Improved responsive design</li>
+  <li>CHANGED: Moved Resizer into core</li>
+  <li>CHANGED: Titles nav switches to bullets on small devices</li>
+  <li>CHANGED: Now uses manual excerpt if available.</li>
+  <li>CHANGED: Horizontal content area is now fluid up to the percentage entered</li>
+  <li>FIXED: Message not showing in block when no slider selected</li>
+  <li>FIXED: General tidy up of PHP notices</li>
+  <li>FIXED: Sometimes slideshow didn't tell you when it was empty</li>
+  <li>FIXED: Critical error that would crash WP or event the server when "ideal" circumstances.</li>
+  <li>FIXED: Centre image alignment not necessarily working correctly</li>
+  <li>FIXED: Square bullets not displaying correct colours per status (active, hover, inactive) in all themes</li>
+</ul>
+
+<h4>1.0.12 :29-Jan-2013</h4><ul>
+  <li>FIXED: Compatiblity with updated GalleryPlus v.1.6</li>
+</ul>
+<h4>1.0.11 : 20-Nov-2012</h4><ul>
+  <li>ADDED: Nav type square bullets</li>
+  <li>ADDED: Slideshow title and CSS styling</li>
+  <li>ADDED: Horizontal and vertical scrolling transition</li>
+  <li>CHANGED: Menu tabs now only show icon. Text shows when hovered. This allows longer labels without messing up the visuals</li>
+  <li>CHANGED: Default transition to Scroll left/right (horizontal)</li>
+  <li>CHANGED: Option labelsto icons only as future titles will be longer and cause wrapping issues.</li>
+  <li>CHANGED: Options hover to show option name</li>
+  <li>CHANGED: Layouts of option panels to include panel title</li>
+  <li>FIXED: Missing hover navs when more than 10 images</li>
+  <li>FIXED: Custom taxonomy display to filter correctly (on slug)</li>
+  <li>FIXED: jQuery error when transition override off</li>
+</ul>
+<h4>1.0.10 : 5-Sep-2012</h4><ul>
+  <li>ADDED: Method to use Pizazz update checker if required</li>
+</ul>
+<h4>1.0.9 : 4-Sep-2012</h4><ul>
+  <li>FIXED: Warnings that were occuring on some sites</li>
+</ul>
+<h4>v1.0.8 : 1-Sep-2012</h4><ul>
+  <li>FIXED: Extra dot after pzsp-container in jquery causing jquery error on some sites</li>
+  <li>FIXED: Added theme_none.css file to stop file not found error in console</li>
+  <li>UPDATED: Pizazz libs v1.3.0</li>
+</ul>
+<h4>v1.0.7 : 15-Aug-2012</h4><ul>
+  <li>FIXED: Hover nav not reshowing after disabling and re-enabling.</li>
+  <li>FIXED: The sometimes overly large bullets</li>
+  <li>ADDED: Sort random to NextGen gallery source</li>
+  <li>ADDED: Check server has PHP GD Library active, with warning if it is not</li>
+  <li>ADDED: WordPress gallery option including using images in current post/page</li>
+  <li>CHANGED: Transition Interrupt now defaults to enabled</li>
+</ul>
+<h4>v1.0.6 - 3-Aug-2012</h4><ul>
+  <li>FIXED: When pruning text, was not allowing for shortcodes, so could cause broken html with extra end div</li>
+</ul>
+<h4>v1.0.5 - 1-Aug-2012</h4><ul>
+  <li>HELP: Added Usage section in SliderPlus Slideshow listing screen</li>
+  <li>HELP: Various tweaks and typo fixes</li>
+  <li>ADDED: SliderPlus widget</li>
+  <li>ADDED: SliderPlus WP template tag: pzsplus($shortname)</li>
+  <li>ADDED: Glossy Blue theme</li>
+  <li>ADDED: Sky Blue theme</li>
+  <li>CHANGED: Put Slideshow WP help into its own php file</li>
+</ul>
+<h4>1.0.4 : 31-Jul-2012</h4><ul>
+  <li>HELP: Added "Anatomy of a slide" image to "Designing a Slideshow"</li>
+  <li>FIXED: Manual updater getting wrong file name</li>
+</ul>
+<h4>v1.0.3 : 28-Jul-2012</h4><ul>
+  <li>UPDATED: Pizazz libs v1.2.11</li>
+</ul>
+<h4>v1.0.2</h4><ul>
+  <li>UPDATED: jQuery Cycle to v2.9999.5</li>
+  <li>CHANGED: Simple validation on some fields now, such as shortname.</li>
+  <li>ADDED: Image only and Text only options to layout selector</li>
+</ul>
+<h4>v1.0.1 : 24-Jul-2012</h4><ul>
+  <li>ADDED: Loading indicator when using an embedded URL</li>
+  <li>ADDED: Option to use Gallery+ or NextGen galleries as the source</li>
+  <li>ADDED: Option to use embed code in slides</li>
+  <li>CHANGED: Moved some Pizazz libs into dedicated SliderPlus libs</li>
+  <li>UPDATED: Help texts</li>
+  <li>CHANGED: Bullet size from 32px to 45px</li>
+  <li>FIXED: Filters not showing on load, only on change</li>
+  <li>FIXED: Warnings in transition effects listing</li>
+  <li>FIXED: Slide destination link not working</li>
+  <li>FIXED: Bottom border in wrong place</li>
+</ul>
+<h4>1.0.0 : 20-Jul-2012</h4>
+<ul><li>Initial release</li></ul>
