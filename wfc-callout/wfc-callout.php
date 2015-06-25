@@ -73,9 +73,8 @@ class WFC_CallOut extends WP_Widget {
 
 		<p style="text-align:left;"><label for="<?php echo $this->get_field_id('subhead'); ?>">
 			Subhead:</label><br />
-			<textarea id="<?php echo $this->get_field_id('subhead'); ?>" name="<?php echo $this->get_field_name('subhead'); ?>" type="text" class="widefat">
-			<?php echo esc_attr($instance['subhead']); ?>
-			</textarea></p>
+			<textarea id="<?php echo $this->get_field_id('subhead'); ?>" name="<?php echo $this->get_field_name('subhead'); ?>" type="text" class="widefat"><?php echo esc_attr($instance['subhead']); ?></textarea>
+		</p>
 
 		<p><label for="<?php echo $this->get_field_id('link'); ?>">Link:</label><br />
 			<input id="<?php echo $this->get_field_id('link'); ?>" 
