@@ -52,7 +52,7 @@ class WFC_Cards extends WP_Widget {
 		<?php echo $before_widget; ?>
 		<?php // echo $before_title . $title . $after_title ?>
 		<div class="wfc-cards-container">
-			<img src="<?php echo $image ?>" alt="<?php echo $alt_tag ?>" />
+			<a href="<?php echo htmlspecialchars($link) ?>"><img src="<?php echo $image ?>" alt="<?php echo $alt_tag ?>" /></a>
 			<div class="wfc-cards-text">
 				<h3><?php echo htmlspecialchars($department) ?></h3>
 				<h1><?php echo htmlspecialchars($headline) ?></h1>
