@@ -43,7 +43,7 @@ class WFC_CallOut extends WP_Widget {
 		<?php // echo $before_title . $title . $after_title ?>
 		<div class="wfc-callout-container">
 			<h1><?php echo $headline ?></h1>
-			<h2><?php echo $subhead ?></h2>
+			<h3><?php echo $subhead ?></h3>
 			<p><?php echo $link_compiled ?></p>
 		</div>
 
