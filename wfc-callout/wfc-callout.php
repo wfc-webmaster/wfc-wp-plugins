@@ -34,7 +34,7 @@ class WFC_CallOut extends WP_Widget {
 		$subhead = ( $instance['subhead'] ) ? $instance['subhead'] : 'Nothing to display. Please add something to the card';
 		$linktext = ( $instance['linktext'] ) ? $instance['linktext'] : 'Link text here';
 		$link = ( $instance['link'] ) ? $instance['link'] : '';
-		$link_compiled = '<a href="' . $link . '">' . $linktext . '</a>';
+		$link_compiled = '<a href="' . htmlspecialchars($link) . '">' . htmlspecialchars($linktext) . '</a>';
 
 		$image = ( $instance['image'] ) ? $instance['image'] : 'Upload an image.';
 		?>
@@ -42,8 +42,8 @@ class WFC_CallOut extends WP_Widget {
 		<?php echo $before_widget; ?>
 		<?php // echo $before_title . $title . $after_title ?>
 		<div class="wfc-callout-container">
-			<h1><?php echo $headline ?></h1>
-			<h3><?php echo $subhead ?></h3>
+			<h1><?php echo htmlspecialchars($headline) ?></h1>
+			<h3><?php echo htmlspecialchars($subhead) ?></h3>
 			<p><?php echo $link_compiled ?></p>
 		</div>
 

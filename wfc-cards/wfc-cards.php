@@ -44,7 +44,7 @@ class WFC_Cards extends WP_Widget {
 		$body = ( $instance['body'] ) ? $instance['body'] : 'Nothing to display. Please add something to the card';
 		$linktext = ( $instance['linktext'] ) ? $instance['linktext'] : 'Link text here';
 		$link = ( $instance['link'] ) ? $instance['link'] : '';
-		$link_compiled = '<a href="' . $link . '">' . $linktext . '</a>';
+		$link_compiled = '<a href="' . htmlspecialchars($link) . '">' . htmlspecialchars($linktext) . '</a>';
 
 		$image = ( $instance['image'] ) ? $instance['image'] : 'Upload an image.';
 		?>
@@ -54,9 +54,9 @@ class WFC_Cards extends WP_Widget {
 		<div class="wfc-cards-container">
 			<img src="<?php echo $image ?>" alt="<?php echo $alt_tag ?>" />
 			<div class="wfc-cards-text">
-				<h3><?php echo $department ?></h3>
-				<h1><?php echo $headline ?></h1>
-				<p><?php echo $body ?></p>
+				<h3><?php echo htmlspecialchars($department) ?></h3>
+				<h1><?php echo htmlspecialchars($headline) ?></h1>
+				<p><?php echo htmlspecialchars($body) ?></p>
 				<p><?php echo $link_compiled ?></p>
 			</div>
 		</div>
