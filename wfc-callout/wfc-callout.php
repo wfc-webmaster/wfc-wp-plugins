@@ -34,7 +34,8 @@ class WFC_CallOut extends WP_Widget {
 		$subhead = ( $instance['subhead'] ) ? $instance['subhead'] : 'Nothing to display. Please add something to the card';
 		$linktext = ( $instance['linktext'] ) ? $instance['linktext'] : 'Link text here';
 		$link = ( $instance['link'] ) ? $instance['link'] : '';
-		$link_compiled = '<a href="' . htmlspecialchars($link) . '">' . htmlspecialchars($linktext) . '</a>';
+		$arrow = '<br /><img class="callout-arrow" src="wp-content/uploads/2015/07/link-arrow-01.svg" />';
+		$link_compiled = '<a href="' . htmlspecialchars($link) . '">' . htmlspecialchars($linktext) . $arrow . '</a>';
 
 		$image = ( $instance['image'] ) ? $instance['image'] : 'Upload an image.';
 		?>
